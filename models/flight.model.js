@@ -6,7 +6,8 @@ const Flight = mongoose.model(
     new Schema({
         from: String,
         to: String,
-        airline: String
+        airline: String, 
+        passenger: []
     })
 )
 
